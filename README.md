@@ -18,11 +18,11 @@ API連携として、Laravel/Socialiteを使用したgoogle認証によるアカ
 <img src="sample2.png" width="800">
 
 ## 技術スタック
-## フロントエンド
-TypeScript、React、Next.js、ChakraUI、Cypress
+<img src="sample3.png" width="800">
 
-## バックエンド
-PHP、Laravel
+## インフラ構成図
+<img src="sample4.png" width="800">
+
 
 
 
