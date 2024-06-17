@@ -1,7 +1,0 @@
-services:
-  frontapp:
-    environment:
-      - PUPPETEER_SKIP_DOWNLOAD='true'
-  e2e:
-    build:
-      dockerfile: ./app/local/Dockerfile.cypress-m1

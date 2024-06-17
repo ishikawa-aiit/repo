@@ -1,4 +1,0 @@
-services:
-  db:
-    build:
-      dockerfile: Dockerfile_arm

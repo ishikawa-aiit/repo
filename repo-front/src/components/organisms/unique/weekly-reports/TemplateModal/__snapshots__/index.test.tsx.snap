@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`snapshot 最新のスナップショットに更新されている 1`] = `
-<div
-  aria-hidden="true"
-  data-aria-hidden="true"
-/>
-`;
