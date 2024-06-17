@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`props:children 正常にレンダリングされている 1`] = `
+.emotion-1 {
+  display: block;
+  text-align: start;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: left;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-2>*:not(style)~*:not(style) {
+  margin-top: 4px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-3 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-width: 0px;
+}
+
+.emotion-4::after {
+  content: "*";
+  color: accent.500;
+  margin-left: 2px;
+}
+
+.emotion-6 {
+  margin-top: 2px;
+}
+
+<div>
+  <div
+    class="chakra-form-control emotion-0"
+    data-testid="FormControl"
+    role="group"
+  >
+    <label
+      class="chakra-form__label emotion-1"
+      for="field-:r0:"
+      id="field-:r0:-label"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <div
+          class="chakra-stack__item emotion-3"
+        >
+          <span
+            class="chakra-text emotion-4"
+          >
+            サンプルテキスト
+          </span>
+        </div>
+        <div
+          class="chakra-stack__item emotion-3"
+        >
+          <input
+            aria-required="true"
+            class="chakra-input emotion-6"
+            id="field-:r0:"
+            required=""
+          />
+        </div>
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`props:error バリデーションエラーが発生した場合、バリデーションエラー文が表示される 1`] = `
+.emotion-1 {
+  display: block;
+  text-align: start;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: left;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-2>*:not(style)~*:not(style) {
+  margin-top: 4px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-3 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-width: 0px;
+}
+
+.emotion-4::after {
+  content: "*";
+  color: accent.500;
+  margin-left: 2px;
+}
+
+.emotion-6 {
+  margin-top: 2px;
+}
+
+.emotion-7 {
+  color: red;
+  margin-bottom: 4px;
+}
+
+<div>
+  <div
+    class="chakra-form-control emotion-0"
+    data-testid="FormControl"
+    role="group"
+  >
+    <label
+      class="chakra-form__label emotion-1"
+      data-invalid=""
+      for="field-:r3:"
+      id="field-:r3:-label"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <div
+          class="chakra-stack__item emotion-3"
+        >
+          <span
+            class="chakra-text emotion-4"
+          >
+            サンプルテキスト
+          </span>
+        </div>
+        <div
+          class="chakra-stack__item emotion-3"
+        >
+          <input
+            aria-invalid="true"
+            aria-required="true"
+            class="chakra-input emotion-6"
+            data-testid="Input"
+            id="field-:r3:"
+            required=""
+          />
+        </div>
+      </div>
+    </label>
+    <p
+      class="chakra-text emotion-7"
+      data-cy="ValidationErrorMessage"
+      data-testid="ValidationErrorMessage"
+    >
+      sampleMessage
+    </p>
+  </div>
+</div>
+`;
+
+exports[`props:error バリデーションエラーが発生していない場合、バリデーションエラー文が表示されない 1`] = `
+.emotion-1 {
+  display: block;
+  text-align: start;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: left;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-2>*:not(style)~*:not(style) {
+  margin-top: 4px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-3 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-width: 0px;
+}
+
+.emotion-6 {
+  margin-top: 2px;
+}
+
+<div>
+  <div
+    class="chakra-form-control emotion-0"
+    data-testid="FormControl"
+    role="group"
+  >
+    <label
+      class="chakra-form__label emotion-1"
+      for="field-:r4:"
+      id="field-:r4:-label"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <div
+          class="chakra-stack__item emotion-3"
+        >
+          <span
+            class="chakra-text emotion-0"
+          >
+            サンプルテキスト
+          </span>
+        </div>
+        <div
+          class="chakra-stack__item emotion-3"
+        >
+          <input
+            class="chakra-input emotion-6"
+            data-testid="Input"
+            id="field-:r4:"
+          />
+        </div>
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`props:isRequired falseの場合、フィールドが入力任意になる 1`] = `
+.emotion-1 {
+  display: block;
+  text-align: start;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: left;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-2>*:not(style)~*:not(style) {
+  margin-top: 4px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-3 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-width: 0px;
+}
+
+.emotion-6 {
+  margin-top: 2px;
+}
+
+<div>
+  <div
+    class="chakra-form-control emotion-0"
+    data-testid="FormControl"
+    role="group"
+  >
+    <label
+      class="chakra-form__label emotion-1"
+      for="field-:r2:"
+      id="field-:r2:-label"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <div
+          class="chakra-stack__item emotion-3"
+        >
+          <span
+            class="chakra-text emotion-0"
+          >
+            サンプルテキスト
+          </span>
+        </div>
+        <div
+          class="chakra-stack__item emotion-3"
+        >
+          <input
+            class="chakra-input emotion-6"
+            data-testid="Input"
+            id="field-:r2:"
+          />
+        </div>
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`props:isRequired trueの場合、フィールドが入力必須になる 1`] = `
+.emotion-1 {
+  display: block;
+  text-align: start;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: left;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-2>*:not(style)~*:not(style) {
+  margin-top: 4px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-3 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-width: 0px;
+}
+
+.emotion-4::after {
+  content: "*";
+  color: accent.500;
+  margin-left: 2px;
+}
+
+.emotion-6 {
+  margin-top: 2px;
+}
+
+<div>
+  <div
+    class="chakra-form-control emotion-0"
+    data-testid="FormControl"
+    role="group"
+  >
+    <label
+      class="chakra-form__label emotion-1"
+      for="field-:r1:"
+      id="field-:r1:-label"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <div
+          class="chakra-stack__item emotion-3"
+        >
+          <span
+            class="chakra-text emotion-4"
+          >
+            サンプルテキスト
+          </span>
+        </div>
+        <div
+          class="chakra-stack__item emotion-3"
+        >
+          <input
+            aria-required="true"
+            class="chakra-input emotion-6"
+            data-testid="Input"
+            id="field-:r1:"
+            required=""
+          />
+        </div>
+      </div>
+    </label>
+  </div>
+</div>
+`;
