@@ -10,9 +10,11 @@
 プロジェクトの目標の一つとして、モダンな開発環境が設定され、テストコードの必須化やCI/CDの構築といった、
 環境の面からも学習を行うことができました。
 
-![Test Image 1](sample1.png)
+### ランディングページ
+<img src="sample1.png" width="800">
 
-![Test Image 1](sample2.png)
+### 週報履歴閲覧ページ
+<img src="sample2.png" width="800">
 
 ## 技術スタック
 ## フロントエンド
