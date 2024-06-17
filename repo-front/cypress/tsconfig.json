@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "isolatedModules": false,
+    "types": ["cypress", "@testing-library/cypress", "cypress-localstorage-commands"]
+  },
+  "include": ["../node_modules/cypress", "./**/*.ts", "./index.d.ts"],
+  "exclude": []
+}

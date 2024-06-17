@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListSidebarMenuItem 指定のパスとリンクのhref属性が一致する 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  color: text.black;
+  font-size: sm;
+  gap: 4px;
+  font-weight: bold;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+
+.emotion-0[aria-current=page] {
+  background-color: primary.400;
+  color: text.white;
+}
+
+.emotion-0:hover,
+.emotion-0[data-hover] {
+  background: primary.100;
+}
+
+<div>
+  <a
+    class="emotion-0"
+    data-cy="ListSidebarMenuItem"
+    data-testid="ListSidebarMenuItem"
+    href="#0"
+  >
+    testName0
+  </a>
+</div>
+`;
+
+exports[`ListSidebarMenuItem 正常にレンダリングされている 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  color: text.black;
+  font-size: sm;
+  gap: 4px;
+  font-weight: bold;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+
+.emotion-0[aria-current=page] {
+  background-color: primary.400;
+  color: text.white;
+}
+
+.emotion-0:hover,
+.emotion-0[data-hover] {
+  background: primary.100;
+}
+
+<div>
+  <a
+    class="emotion-0"
+    data-cy="ListSidebarMenuItem"
+    data-testid="ListSidebarMenuItem"
+    href="#0"
+  >
+    testName0
+  </a>
+</div>
+`;
+
+exports[`props:isCurrent falseの場合、リンクがカレントではない 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  color: text.black;
+  font-size: sm;
+  gap: 4px;
+  font-weight: bold;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+
+.emotion-0[aria-current=page] {
+  background-color: primary.400;
+  color: text.white;
+}
+
+.emotion-0:hover,
+.emotion-0[data-hover] {
+  background: primary.100;
+}
+
+<div>
+  <a
+    class="emotion-0"
+    data-cy="ListSidebarMenuItem"
+    data-testid="ListSidebarMenuItem"
+    href="#0"
+  >
+    testName0
+  </a>
+</div>
+`;
+
+exports[`props:isCurrent trueの場合、リンクがカレントとなる 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  color: text.black;
+  font-size: sm;
+  gap: 4px;
+  font-weight: bold;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+
+.emotion-0[aria-current=page] {
+  background-color: primary.400;
+  color: text.white;
+}
+
+<div>
+  <a
+    aria-current="page"
+    class="emotion-0"
+    data-cy="ListSidebarCurrentMenuItem"
+    data-testid="ListSidebarCurrentMenuItem"
+    href="#0"
+  >
+    testName0
+  </a>
+</div>
+`;

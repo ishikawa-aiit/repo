@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots 最新のスナップショットに更新されている 1`] = `
+.emotion-0 {
+  overflow: hidden;
+  resize: none;
+}
+
+<div>
+  <textarea
+    class="chakra-textarea emotion-0"
+  />
+</div>
+`;

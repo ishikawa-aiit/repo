@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`props:children 正常にレンダリングされている 1`] = `
+<div>
+  <div
+    class="emotion-0"
+    data-cy="Toast"
+    data-testid="Toast"
+  >
+    サンプルボディ
+  </div>
+</div>
+`;
+
+exports[`props:description ディスクリプションが正常にレンダリングされている 1`] = `
+<div>
+  <div
+    class="emotion-0"
+    data-cy="Toast"
+    data-testid="Toast"
+  >
+    サンプルボディ
+  </div>
+</div>
+`;
+
+exports[`props:title タイトルが正常にレンダリングされている 1`] = `
+<div>
+  <div
+    class="emotion-0"
+    data-cy="Toast"
+    data-testid="Toast"
+  >
+    サンプルボディ
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`props:children 正常にレンダリングされている 1`] = `
+.emotion-0 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+<div>
+  <main
+    class="emotion-0"
+    data-cy="Main"
+    data-testid="Main"
+  >
+    サンプルテキスト
+  </main>
+</div>
+`;
