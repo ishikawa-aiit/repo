@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`props:children 正常にレンダリングされている 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 1264px;
+  min-height: 100vh;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background: white;
+  width: 100%;
+  -webkit-padding-start: 5px;
+  padding-inline-start: 5px;
+  -webkit-padding-end: 5px;
+  padding-inline-end: 5px;
+  box-shadow: sm;
+  z-index: 10;
+}
+
+.emotion-3 {
+  padding-top: 2px;
+  padding-bottom: 1px;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+
+.emotion-3:hover,
+.emotion-3[data-hover] {
+  opacity: .75;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-6 {
+  font-size: 80%;
+  padding-left: .8rem;
+}
+
+.emotion-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  background: primary.500;
+  width: 240px;
+  top: 68px;
+  height: calc(100vh - 68px);
+}
+
+.emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  color: text.white;
+  font-size: sm;
+  gap: 4px;
+  font-weight: bold;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+
+.emotion-10[aria-current=page] {
+  background-color: primary.600;
+}
+
+.emotion-10:hover,
+.emotion-10[data-hover] {
+  background: primary.400;
+}
+
+.emotion-11 {
+  width: 5px;
+}
+
+.emotion-16 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  justify-self: stretch;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
+
+.emotion-20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: gray.50;
+  padding-top: 16px;
+  -webkit-padding-start: 8px;
+  padding-inline-start: 8px;
+  -webkit-padding-end: 8px;
+  padding-inline-end: 8px;
+  padding-bottom: 0px;
+}
+
+.emotion-21 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 12px;
+  padding-bottom: 16px;
+}
+
+.emotion-22 {
+  height: 100%;
+  max-width: none;
+}
+
+.emotion-23 {
+  width: 2xl;
+  max-width: 1024px;
+  padding: 0px;
+}
+
+.emotion-24 {
+  margin-bottom: 8px;
+}
+
+.emotion-25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: neutral.600;
+  width: 100%;
+  margin-top: auto;
+  font-size: sm;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top: 1px;
+  border-top-color: neutral.200;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    data-cy="DefaultLayout"
+    data-testid="DefaultLayout"
+  >
+    <header
+      class="emotion-1"
+      data-cy="Header"
+      data-testid="Header"
+    >
+      <a
+        class="chakra-link emotion-2"
+        href="/weekly-reports/create"
+      >
+        <div
+          class="emotion-3"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27110%27%20height=%2750%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="週報作成支援ツール Repo"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
+      </a>
+      <div
+        class="emotion-4"
+      >
+        <p
+          class="chakra-text emotion-2"
+          data-testid="HeaderUserName"
+        >
+          新渡戸 稲造
+          <small
+            class="chakra-text emotion-6"
+          >
+            さん
+          </small>
+        </p>
+      </div>
+    </header>
+    <div
+      class="emotion-7"
+    >
+      <aside
+        class="emotion-8"
+        data-cy="Sidebar"
+        data-testid="Sidebar"
+      >
+        <div
+          class="emotion-2"
+        >
+          <a
+            class="emotion-10"
+            data-cy="SidebarMenuItem"
+            data-testid="SidebarMenuItem"
+          >
+            <div
+              class="emotion-11"
+            >
+              <svg
+                aria-hidden="true"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            週報作成
+          </a>
+          <a
+            class="emotion-10"
+            data-cy="SidebarMenuItem"
+            data-testid="SidebarMenuItem"
+          >
+            <div
+              class="emotion-11"
+            >
+              <svg
+                aria-hidden="true"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 6h16M4 12h16M4 18h7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            週報一覧
+          </a>
+          <a
+            class="emotion-10"
+            data-cy="SidebarMenuItem"
+            data-testid="SidebarMenuItem"
+          >
+            <div
+              class="emotion-11"
+            >
+              <svg
+                aria-hidden="true"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            テンプレート作成・編集
+          </a>
+        </div>
+        <div
+          class="emotion-16"
+        />
+        <div
+          class="emotion-2"
+        >
+          <a
+            class="emotion-10"
+            data-cy="SidebarMenuItem"
+            data-testid="SidebarMenuItem"
+          >
+            <div
+              class="emotion-11"
+            >
+              <svg
+                aria-hidden="true"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            設定
+          </a>
+        </div>
+      </aside>
+      <div
+        class="emotion-20"
+      >
+        <main
+          class="emotion-21"
+          data-cy="Main"
+          data-testid="Main"
+        >
+          <div
+            class="chakra-container emotion-22"
+          >
+            <div
+              class="chakra-container emotion-23"
+            >
+              <h1
+                class="chakra-heading emotion-24"
+              />
+              サンプルテキスト
+            </div>
+          </div>
+        </main>
+        <footer
+          class="emotion-25"
+          data-cy="Footer"
+          data-testid="Footer"
+        >
+          © Advanced Institute of Industrial Technology, Oikawa Project Team 2022
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+`;

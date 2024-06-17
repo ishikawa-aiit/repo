@@ -1,0 +1,1281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`props: isLoading falseの場合 weeklyReportItemsの要素が1つ以上ある時、要素分Cardがレンダリングされる 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.emotion-0>*:not(style)~*:not(style) {
+  margin-top: 6px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 1px;
+  border-color: neutral.200;
+  border-radius: 12px;
+  width: 100%;
+  background-color: bg.white;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.emotion-2>*:not(style)~*:not(style) {
+  margin-top: 0.5rem;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-bottom: 1px;
+  border-color: neutral.200;
+  width: 100%;
+  word-break: break-all;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  gap: 4px;
+}
+
+.emotion-3:last-of-type {
+  border-bottom: none;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.emotion-5 {
+  vertical-align: middle;
+  white-space: pre-wrap;
+}
+
+.emotion-8 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.emotion-9 {
+  width: 5px;
+}
+
+<div>
+  <div
+    class="chakra-stack emotion-0"
+    data-cy="Cards"
+    data-testid="Cards"
+    role="list"
+  >
+    <div
+      class="emotion-1"
+      data-cy="Card"
+      data-testid="Card"
+      id="0"
+      role="listitem"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            報告週
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            07/04 ~ 07/09
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            活動時間
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            2時間20分
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            今週の活動と成果の実績
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            やったこと1
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            来週の活動と成果の予定
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            やること1
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            課題と解決策
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            解決したこと1
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            できごと・気づき
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            起こったこと1
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            特記事項
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            特別なこと1
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div
+      class="emotion-1"
+      data-cy="Card"
+      data-testid="Card"
+      id="1"
+      role="listitem"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            報告週
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            07/25 ~ 07/30
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            活動時間
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            8時間50分
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            今週の活動と成果の実績
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            やったこと2
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            来週の活動と成果の予定
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            やること2
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            課題と解決策
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            解決したこと2
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            できごと・気づき
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            起こったこと2
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            特記事項
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            特別なこと2
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div
+      class="emotion-1"
+      data-cy="Card"
+      data-testid="Card"
+      id="2"
+      role="listitem"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            報告週
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            10/24 ~ 10/29
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            活動時間
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            5時間20分
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            今週の活動と成果の実績
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            やったこと3
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            来週の活動と成果の予定
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            やること3
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            課題と解決策
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            解決したこと3
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            できごと・気づき
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            起こったこと3
+          </dd>
+        </dl>
+        <dl
+          class="emotion-3"
+          data-cy="CardItem"
+          data-testid="CardItem"
+        >
+          <dt
+            aria-label="title"
+            class="emotion-4"
+          >
+            特記事項
+            <button
+              class="chakra-button emotion-8"
+              data-cy="ClipboardCopyButton"
+              data-testid="ClipboardCopyButton"
+              type="button"
+            >
+              <span
+                class="chakra-text emotion-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd
+            class="chakra-text emotion-5"
+          >
+            特別なこと3
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`props: isLoading falseの場合 weeklyReportItemsの要素がない時、ListNoneがレンダリングされる 1`] = `
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1>*:not(style)~*:not(style) {
+  margin-top: 6px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-2 {
+  font-weight: bold;
+  font-size: xl;
+}
+
+.emotion-3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.emotion-4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-margin-end: 0.5rem;
+  margin-inline-end: 0.5rem;
+}
+
+.emotion-5 {
+  width: 5px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    data-cy="Cards"
+    data-testid="Cards"
+  >
+    <div
+      class="chakra-stack emotion-1"
+    >
+      <p
+        class="chakra-text emotion-2"
+        data-cy="ListNone"
+        data-testid="ListNone"
+      >
+        作成された週報はありません
+      </p>
+      <a
+        class="chakra-button emotion-3"
+        data-cy="Button"
+        data-testid="Button"
+        href="/weekly-reports/create"
+      >
+        <span
+          class="chakra-button__icon emotion-4"
+        >
+          <span
+            aria-hidden="true"
+            class="emotion-5"
+            focusable="false"
+          >
+            <svg
+              aria-hidden="true"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </span>
+        週報を作成する
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`props: isLoading trueの場合、CardSkeletonsがレンダリングされる 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.emotion-0>*:not(style)~*:not(style) {
+  margin-top: 6px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 1px;
+  border-color: neutral.200;
+  border-radius: 12px;
+  width: 100%;
+  background-color: bg.white;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.emotion-2>*:not(style)~*:not(style) {
+  margin-top: 3px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-3 {
+  box-shadow: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  cursor: default;
+  color: transparent;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 8px;
+}
+
+.emotion-3::before,
+.emotion-3::after,
+.emotion-3 * {
+  visibility: hidden;
+}
+
+<div>
+  <div
+    class="chakra-stack emotion-0"
+    data-cy="CardSkeletons"
+    data-testid="CardSkeletons"
+    role="list"
+  >
+    <div
+      aria-busy="true"
+      class="emotion-1"
+      role="status"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+      </div>
+    </div>
+    <div
+      aria-busy="true"
+      class="emotion-1"
+      role="status"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+      </div>
+    </div>
+    <div
+      aria-busy="true"
+      class="emotion-1"
+      role="status"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

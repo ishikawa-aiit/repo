@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+cd .docker && \
+HUSKY=0 docker-compose exec -T frontapp yarn lint-staged && \
+HUSKY=0 docker-compose exec -T frontapp yarn test

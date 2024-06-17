@@ -1,0 +1,25 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/app
+hooks:
+  AfterInstall:
+    - location: deploy/preparation.sh
+      runas: root
+
+permissions:
+  - object: /var/www/app
+    pattern: "**"
+    owner: ssm-user
+    group: nginx
+    mode: 664
+    type:
+      - file
+  - object: /var/www/app
+    pattern: "**"
+    owner: ssm-user
+    group: nginx
+    mode: 775
+    type:
+      - directory

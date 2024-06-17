@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card 正常にレンダリングされている 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.emotion-0>*:not(style)~*:not(style) {
+  margin-top: 6px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 1px;
+  border-color: neutral.200;
+  border-radius: 12px;
+  width: 100%;
+  background-color: bg.white;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.emotion-2>*:not(style)~*:not(style) {
+  margin-top: 3px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.emotion-3 {
+  box-shadow: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  cursor: default;
+  color: transparent;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 8px;
+}
+
+.emotion-3::before,
+.emotion-3::after,
+.emotion-3 * {
+  visibility: hidden;
+}
+
+<div>
+  <div
+    class="chakra-stack emotion-0"
+    data-cy="CardSkeletons"
+    data-testid="CardSkeletons"
+    role="list"
+  >
+    <div
+      aria-busy="true"
+      class="emotion-1"
+      role="status"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+      </div>
+    </div>
+    <div
+      aria-busy="true"
+      class="emotion-1"
+      role="status"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+      </div>
+    </div>
+    <div
+      aria-busy="true"
+      class="emotion-1"
+      role="status"
+    >
+      <div
+        class="chakra-stack emotion-2"
+      >
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+        <div
+          class="chakra-skeleton emotion-3"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

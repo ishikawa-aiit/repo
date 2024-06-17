@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListSidebar menuItems内のオブジェクト数分、正常にレンダリングされている 1`] = `
+.emotion-0 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 68px;
+  height: calc(100vh - 68px);
+  width: 180px;
+  background: primary.50;
+  overflow-y: scroll;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  color: text.black;
+  font-size: sm;
+  gap: 4px;
+  font-weight: bold;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+
+.emotion-1[aria-current=page] {
+  background-color: primary.400;
+  color: text.white;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  color: text.black;
+  font-size: sm;
+  gap: 4px;
+  font-weight: bold;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+
+.emotion-2[aria-current=page] {
+  background-color: primary.400;
+  color: text.white;
+}
+
+.emotion-2:hover,
+.emotion-2[data-hover] {
+  background: primary.100;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    data-cy="ListSidebar"
+    data-testid="ListSidebar"
+  >
+    <a
+      aria-current="page"
+      class="emotion-1"
+      data-cy="ListSidebarCurrentMenuItem"
+      data-testid="ListSidebarCurrentMenuItem"
+    >
+      testName1
+    </a>
+    <a
+      class="emotion-2"
+      data-cy="ListSidebarMenuItem"
+      data-testid="ListSidebarMenuItem"
+    >
+      testName2
+    </a>
+  </div>
+</div>
+`;
+
+exports[`ルーターから返ってくるパス名とmenuItemsのlink 一致する場合、カレントページとなる 1`] = `
+.emotion-0 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 68px;
+  height: calc(100vh - 68px);
+  width: 180px;
+  background: primary.50;
+  overflow-y: scroll;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  color: text.black;
+  font-size: sm;
+  gap: 4px;
+  font-weight: bold;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+
+.emotion-1[aria-current=page] {
+  background-color: primary.400;
+  color: text.white;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  color: text.black;
+  font-size: sm;
+  gap: 4px;
+  font-weight: bold;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+
+.emotion-2[aria-current=page] {
+  background-color: primary.400;
+  color: text.white;
+}
+
+.emotion-2:hover,
+.emotion-2[data-hover] {
+  background: primary.100;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    data-cy="ListSidebar"
+    data-testid="ListSidebar"
+  >
+    <a
+      aria-current="page"
+      class="emotion-1"
+      data-cy="ListSidebarCurrentMenuItem"
+      data-testid="ListSidebarCurrentMenuItem"
+    >
+      testName1
+    </a>
+    <a
+      class="emotion-2"
+      data-cy="ListSidebarMenuItem"
+      data-testid="ListSidebarMenuItem"
+    >
+      testName2
+    </a>
+  </div>
+</div>
+`;

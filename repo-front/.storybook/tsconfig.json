@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "isolatedModules": false,
+    "strict": false,
+  },
+  "include": ["*.tsx", "*.ts"]
+}

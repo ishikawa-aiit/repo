@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`props:hasSlackConnection falseの場合、未設定が表示されている 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-1 {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  line-height: 1em;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: neutral.500;
+}
+
+.emotion-2 {
+  font-style: italic;
+  color: neutral.500;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    data-cy="SlackSettingStatus"
+  >
+    <svg
+      aria-hidden="true"
+      class="chakra-icon emotion-1"
+      fill="none"
+      focusable="false"
+      stroke="currentColor"
+      stroke-width="1"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+    <p
+      class="chakra-text emotion-2"
+    >
+      未設定
+    </p>
+  </div>
+</div>
+`;
+
+exports[`props:hasSlackConnection trueの場合、設定済みが表示されている 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-1 {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  line-height: 1em;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: primary.500;
+}
+
+.emotion-2 {
+  font-style: italic;
+  color: primary.500;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    data-cy="SlackSettingStatus"
+  >
+    <svg
+      aria-hidden="true"
+      class="chakra-icon emotion-1"
+      fill="none"
+      focusable="false"
+      stroke="currentColor"
+      stroke-width="1"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+    <p
+      class="chakra-text emotion-2"
+    >
+      設定済み
+    </p>
+  </div>
+</div>
+`;

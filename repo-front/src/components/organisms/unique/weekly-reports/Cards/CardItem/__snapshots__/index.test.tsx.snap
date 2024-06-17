@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardItem 正常にレンダリングされている 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-bottom: 1px;
+  border-color: neutral.200;
+  width: 100%;
+  word-break: break-all;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  gap: 4px;
+}
+
+.emotion-0:last-of-type {
+  border-bottom: none;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.emotion-2 {
+  vertical-align: middle;
+  white-space: pre-wrap;
+}
+
+<div>
+  <dl
+    class="emotion-0"
+    data-cy="CardItem"
+    data-testid="CardItem"
+  >
+    <dt
+      aria-label="title"
+      class="emotion-1"
+    >
+      テストタイトル
+    </dt>
+    <dd
+      class="chakra-text emotion-2"
+    >
+      テスト詳細文
+    </dd>
+  </dl>
+</div>
+`;

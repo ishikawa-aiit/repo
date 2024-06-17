@@ -1,0 +1,1 @@
+export { ProductConst } from './product'

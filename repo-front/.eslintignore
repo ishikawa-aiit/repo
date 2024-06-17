@@ -1,0 +1,10 @@
+.next
+node_modules
+package-scripts.js
+next.config.js
+jest.config.js
+package-scripts.js
+global.d.ts
+next-env.d.ts
+examples
+audits
