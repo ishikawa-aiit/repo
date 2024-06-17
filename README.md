@@ -10,6 +10,10 @@
 プロジェクトの目標の一つとして、モダンな開発環境が設定され、テストコードの必須化やCI/CDの構築といった、
 環境の面からも学習を行うことができました。
 
+![Test Image 1](sample1.png)
+
+![Test Image 1](sample2.png)
+
 ## 技術スタック
 ## フロントエンド
 TypeScript、React、Next.js、ChakraUI、Cypress
