@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModelSentenceLayout テンプレートの特徴文と例文が正常にレンダリングされている 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-areas: 'top_left top_right' 'selectTemplate_left selectTemplate_right' 'doneActivity_left doneActivity_right' 'button_left button_right';
+  grid-row-gap: 8px;
+  grid-column-gap: 8px;
+  grid-template-columns: 42rem auto;
+}
+
+.emotion-1 {
+  grid-area: selectTemplate_right;
+  padding-top: 8px;
+}
+
+.emotion-2 {
+  white-space: pre-wrap;
+  color: neutral.500;
+  font-weight: normal;
+}
+
+.emotion-3 {
+  grid-area: doneActivity_right;
+  padding-top: 8px;
+}
+
+.emotion-4 {
+  color: neutral.500;
+  font-weight: normal;
+  font-size: inherit;
+}
+
+.emotion-6 {
+  grid-area: button_right;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      style="grid-area: selectTemplate_left;"
+    >
+      子コンポーネント1
+    </div>
+    <div
+      style="grid-area: doneActivity_left;"
+    >
+      子コンポーネント2
+    </div>
+    <div
+      class="emotion-1"
+    >
+      <p
+        class="chakra-text emotion-2"
+      >
+        テンプレートを選択できます
+      </p>
+    </div>
+    <div
+      class="emotion-3"
+    >
+      <h2
+        class="chakra-heading emotion-4"
+      >
+        例)
+      </h2>
+      <p
+        class="chakra-text emotion-2"
+      >
+        これまでの活動と成果の実績
+      </p>
+    </div>
+    <div
+      class="emotion-6"
+    />
+  </div>
+</div>
+`;
+
+exports[`props:children 子コンポーネントが正常にレンダリングされている 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-areas: 'top_left top_right' 'selectTemplate_left selectTemplate_right' 'doneActivity_left doneActivity_right' 'button_left button_right';
+  grid-row-gap: 8px;
+  grid-column-gap: 8px;
+  grid-template-columns: 42rem auto;
+}
+
+.emotion-1 {
+  grid-area: selectTemplate_right;
+  padding-top: 8px;
+}
+
+.emotion-2 {
+  white-space: pre-wrap;
+  color: neutral.500;
+  font-weight: normal;
+}
+
+.emotion-3 {
+  grid-area: doneActivity_right;
+  padding-top: 8px;
+}
+
+.emotion-4 {
+  color: neutral.500;
+  font-weight: normal;
+  font-size: inherit;
+}
+
+.emotion-6 {
+  grid-area: button_right;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      style="grid-area: selectTemplate_left;"
+    >
+      子コンポーネント1
+    </div>
+    <div
+      style="grid-area: doneActivity_left;"
+    >
+      子コンポーネント2
+    </div>
+    <div
+      class="emotion-1"
+    >
+      <p
+        class="chakra-text emotion-2"
+      >
+        テンプレートを選択できます
+      </p>
+    </div>
+    <div
+      class="emotion-3"
+    >
+      <h2
+        class="chakra-heading emotion-4"
+      >
+        例)
+      </h2>
+      <p
+        class="chakra-text emotion-2"
+      >
+        これまでの活動と成果の実績
+      </p>
+    </div>
+    <div
+      class="emotion-6"
+    />
+  </div>
+</div>
+`;

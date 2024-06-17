@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots 最新のスナップショットに更新されている 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: neutral.600;
+  width: 100%;
+  margin-top: auto;
+  font-size: sm;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top: 1px;
+  border-top-color: neutral.200;
+}
+
+<div>
+  <footer
+    class="emotion-0"
+    data-cy="Footer"
+    data-testid="Footer"
+  >
+    © Advanced Institute of Industrial Technology, Oikawa Project Team 2022
+  </footer>
+</div>
+`;
